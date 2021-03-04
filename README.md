@@ -18,7 +18,7 @@ system.time(knit("benchmark.Rnw", quiet = TRUE))
 
 ```r
 > library(knitr)
-> system.time(knit("~/benchmark/benchmark.Rnw", quiet = TRUE))
+> system.time(knit("benchmark.Rnw", quiet = TRUE))
    user  system elapsed 
  55.158   4.612  59.430 
 ```
