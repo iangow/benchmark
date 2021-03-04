@@ -31,3 +31,11 @@ system.time(knit("benchmark.Rnw", quiet = TRUE))
    user  system elapsed 
 122.423   5.316 124.959 
 ```
+3. 2017 12-core Xeon
+
+```r
+> library(knitr)
+> system.time(knit("benchmark.Rnw", quiet = TRUE))
+   user  system elapsed 
+147.332   8.139 153.510 
+```
