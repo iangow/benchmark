@@ -24,10 +24,9 @@ system.time(source("benchmark.R", echo = FALSE))
 2. 2013 i7 3770k
 
 ```r
-> library(knitr)
-> system.time(knit("benchmark.Rnw", quiet = TRUE))
+> system.time(source("benchmark.R", echo = FALSE))
    user  system elapsed 
-122.423   5.316 124.959 
+111.875   3.732 112.726 
 ```
 3. 2017 12-core Xeon
 
