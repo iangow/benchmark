@@ -39,3 +39,10 @@ system.time(knit("benchmark.Rnw", quiet = TRUE))
    user  system elapsed 
 147.332   8.139 153.510 
 ```
+4. 2009 Mac Pro (2011 hex-core Xeon W3690)
+```r
+> library(knitr)
+> system.time(knit("benchmark.Rnw", quiet = TRUE))
+   user  system elapsed 
+152.317  20.556 170.725 
+```
