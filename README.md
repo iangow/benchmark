@@ -31,10 +31,9 @@ system.time(source("benchmark.R", echo = FALSE))
 3. 2017 12-core Xeon
 
 ```r
-> library(knitr)
-> system.time(knit("benchmark.Rnw", quiet = TRUE))
+> system.time(source("benchmark.R", echo = FALSE))
    user  system elapsed 
-147.332   8.139 153.510 
+132.974   5.147 136.355 
 ```
 4. 2009 Mac Pro (2011 hex-core Xeon W3690)
 ```r
