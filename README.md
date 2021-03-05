@@ -8,8 +8,7 @@ git clone git@github.com:iangow/benchmark.git
 3. Run the following lines.
 
 ```r
-library(knitr)
-system.time(knit("benchmark.Rnw", quiet = TRUE))
+system.time(source("benchmark.R", echo = FALSE))
 ```
 
 ## Results
@@ -17,10 +16,9 @@ system.time(knit("benchmark.Rnw", quiet = TRUE))
 1. Mac mini M1.
 
 ```r
-> library(knitr)
-> system.time(knit("benchmark.Rnw", quiet = TRUE))
+system.time(source("benchmark.R", echo = FALSE))
    user  system elapsed 
- 55.158   4.612  59.430 
+ 48.427   3.359  50.993 
 ```
 
 2. 2013 i7 3770k
