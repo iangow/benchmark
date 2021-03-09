@@ -1,5 +1,6 @@
 ## Instructions 
 
+0. Make sure you have the following packages installed: `dplyr`, `tidyr`, `xtable`, `lfe`. If you don't running `install.packages(c("dplyr", "tidyr", "xtable", "lfe"))` in R should take care of this for you.
 1. Clone this repository.
 ```bash
 git clone git@github.com:iangow/benchmark.git
